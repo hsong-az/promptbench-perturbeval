@@ -15,7 +15,7 @@ class Inference(object):
         self.error_analysis = False
         self.args = args
         self.model = args.model
-        self.openai_config = args.openai_config
+        # self.openai_config = args.openai_config
         self.create_model()
 
 
